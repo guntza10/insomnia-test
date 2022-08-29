@@ -1,0 +1,27 @@
+_id: req_5e4f93072b61452d993b16461b9730cc
+type: Request
+parentId: wrk_0e748a65086d408290f7cf5db0de69b8
+modified: 1661756903128
+created: 1661746085417
+url: "{{ _.host }}/notification"
+name: GetNotifications
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_28891a3f60484c55bcb2a8d2826f80e5
+    name: Authorization
+    value: "{{ _.access_token }}"
+    description: ""
+authentication:
+  type: bearer
+  token: ""
+metaSortKey: -1661746085417
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
